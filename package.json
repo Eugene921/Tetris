@@ -5,7 +5,7 @@
   "main": "./tetris/app.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --out-dir ./view/ --public-url /riverbird/view/"
+    "build": "parcel build index.html --out-dir ./view/ --public-url /Tetris/view/"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
