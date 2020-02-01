@@ -2,12 +2,15 @@
   "name": "project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "./tetris/app.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir ./view/ --public-url /riverbird/view/"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "cssnano": "^4.1.10",
     "parcel-bundler": "^1.11.0"
   }
 }
